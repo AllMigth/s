@@ -24,7 +24,7 @@ class Button extends React.Component {
               // URL *100%* of the time, it's possible that they could e.g. close the
               // tab between form submission and the redirect.
               successUrl: 'https://store-optafolio.netlify.app/success',
-              cancelUrl: 'https://store-optafolio.netlify.app/success',
+              cancelUrl: 'https://store-optafolio.netlify.app/canceled',
             })
             .then(function(result) {
               if (result.error) {
