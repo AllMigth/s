@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 
 
-class Button extends React.Component{
+class Product extends React.Component{
 
     // constructor (){
     //     this.handleSubmit.bind(this);
